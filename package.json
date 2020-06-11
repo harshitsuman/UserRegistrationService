@@ -1,0 +1,21 @@
+{
+  "name": "userregistrationservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "env-cmd ./ENV/dev.env node src/index.js",
+    "restart": "env-cmd ./ENV/dev.env nodemon src/index.js"
+  },
+  "author": "Harshit",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg": "^8.2.1",
+    "sendotp-promise": "^1.0.5"
+  },
+  "devDependencies": {
+    "env-cmd": "^8.0.2"
+  }
+}
